@@ -1,5 +1,5 @@
-# Chinese (中文) Magento2 Language Pack (zh_TW)
-## Magento 2 Traditional Chinese Language Pack
+# Chinese (繁體中文) Magento2 Traditional Chinese Language Pack (zh_TW)
+
 
 **Magento 2 Traditional Chinese Language Pack** is a helpful document that is donated by AI Art Inc.. The package will contain two steps (Download & Contribute and Install) to point out how you can apply Traditional Chinese Language on the storefront and backend of Magento 2 store. All phrases are contributed by Magento 2 translation project at Crowdin.
 
