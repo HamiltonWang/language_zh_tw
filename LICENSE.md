@@ -1,3 +1,4 @@
+Copyright (c) 2018 AI Art Inc.
 Copyright (c) 2018 Wijzijn.Guru.
 
 Permission is hereby granted, free of charge, to any person obtaining

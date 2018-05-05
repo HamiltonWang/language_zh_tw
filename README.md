@@ -1,144 +1,39 @@
-# Chinese (繁體中文) Magento2 Traditional Chinese Language Pack (zh_TW)
+# Chinese (中文) Magento2 Language Pack (zh_TW)
+This is a Language Pack generated from the [official Magento2 translations project](https://crowdin.com/project/magento-2) at [Crowdin](https://crowdin.com).
+The Chinese (中文) translations used can be found [here](https://crowdin.com/project/magento-2/zh).
+This translation is usefull for people living in the Taiwan (台湾).
 
+For our other language packs look at the [Magento2Translations](http://magento2translations.github.io/) page.
 
-**Magento 2 Traditional Chinese Language Pack** is a helpful document that is donated by AI Art Inc.. The package will contain two steps (Download & Contribute and Install) to point out how you can apply Traditional Chinese Language on the storefront and backend of Magento 2 store. All phrases are contributed by Magento 2 translation project at Crowdin.
+# Version & progress
+This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/zh#/Head) at Crowdin and based on the Magento 2.2.0 sourcefiles.
+There have been  1295 strings translated of the 8763 strings in the Magento source.
 
+Translation progress:![Progress](http://progressed.io/bar/15)
 
-
-## Overview
-
-- Download & Contribute
-- Install Traditional Chinese Language Pack
-- How to Install Traditional Chinese Language Pack
-
-## 1. Download & Contribute to Traditional Chinese Language Pack
-
-Below are two active buttons which are required operations before installing the language package. Let's hit them to download and contribute Magento 2 Traditional Chinese Language Pack immediately!
-
-**Download packages**:
-
-- [Download .zip](https://github.com/HamiltonWang/language_zh_tw/archive/master.zip)
-- [Download .tar.gz](https://github.com/HamiltonWang/language_zh_tw/tarball/master)
-
-
-Find other [language packs here](https://www.mageplaza.com/kb/magento-2-language-pack/)
-
-## 2. How to Install Traditional Chinese Language Pack
-
-There are 3 different methods to install this language pack.
-
-### ✓ Method #1. Composer method (Recommend)
-Install the Traditional Chinese language pack via composer is never easier.
-
-**Install Traditional Chinese pack**:
-
+# Installation
+**Please select the git branch appropriate for your magento version from this repo.**
+## Via composer
+To install this translation package with composer you need access to the command line of your server and you need to have [Composer](https://getcomposer.org).
 ```
-composer require aiart/language_zh_tw:dev-master
-php bin/magento setup:static-content:deploy zh_TW
-php bin/magento cache:flush
-
+cd <your magento path>
+composer require magento2translations/language_zh_tw:dev-master
+php bin/magento cache:clean
 ```
+## Manually
+To install this language package manually you need access to your server file system.
+* Download the zip file [here](https://github.com/Magento2Translations/language_zh_tw/archive/master.zip).
+* Upload the contents to `<your magento path>/app/i18n/magento2translations/language_zh_tw`.
+* The composer files should then be located like this `<your magento path>/app/i18n/magento2translations/zh_TW/zh_TW.csv`.
+* Go to your Magento admin panel and clear the caches.
 
+#Usage
+To use this language pack login to your admin panel and goto `Stores -> Configuration -> General > General -> Locale options` and set the '*locale*' option as '*Chinese (Taiwan)*'
 
-**Update  Traditional Chinese pack**:
+# Contribute
+To help push the '*Chinese (中文) Magento2 Language Pack (zh_TW)*' forward please goto [this](https://crowdin.com/project/magento-2/zh) crowdin page and translate the lines.
 
-```
-composer update HamiltonWang/language_zh_tw:dev-master
-php bin/magento setup:static-content:deploy zh_TW
-php bin/magento cache:flush
+# Authors
+The translations are done by the [official Magento2 translations project](https://crowdin.com/project/magento-2).
 
-```
-
-
-### ✓ Method #2. Copy & Paste method (Not recommended)
-
-This method suitable for non-technical people such as merchants. Just download the package then flush cache.
-
-**Overview**
-
-- Step 1: Download the Traditional Chinese language pack
-- Step 2: Unzip Traditional Chinese pack
-- Step 3: Flush Magento 2 Cache
-
-#### Step 1 : Download the Traditional Chinese language pack
-
-You can download the language pack from above link
-
-#### Step 2: Unzip Traditional Chinese pack
-
-Unzip the Traditional Chinese language pack to Magento 2 root folder. In this guide, we extract to `/var/www/html/`
-Your Magento 2 root folder can be: `/home/account_name/yourstore.com/public_html/`
-
-```
-unzip fr.zip app/code/aiart/zh_tw
-```
-
-You also can unzip locally and upload them to Magento 2 root folder.
-
-#### Step 3: Flush Magento 2 Cache
-
-```
-php ./bin/magento cache:clean
-php ./bin/magento cache:flush
-```
-
-### ✓ Method #3. Download and install manually (Not recommended)
-
-To download and install Traditional Chinese pack manually, you have to access to your server via FTP or SFTP.
-
-#### Step 1: Download the package
-
-- [Download .zip](https://github.com/HamiltonWang/language_zh_tw/archive/master.zip)
-- [Download .tar.gz](https://github.com/HamiltonWang/language_zh_tw/tarball/master)
-
-#### Step 1: Unzip and upload
-
-Unzip the compressed file and upload file `zh_TW.zip` into `app/i18n/aiart/zh_TW/zh_TW.csv`
-
-#### Step 2: Flush cache
-
-```
-php ./bin/magento cache:clean
-php ./bin/magento cache:flush
-```
-
-## 3. How to activate Traditional Chinese language pack
-
-Now time to active the Traditional Chinese language pack for your Magento 2 store. From Magento 2 admin panel, navigate to `Stores > Configuration > General > Locale Options`
-![{{Magento 2 Traditional Chinese language pack}}](https://cdn.mageplaza.com/media/general/aPSUA0l.png)
-
-
-## 4. How to contribute
-<!-- ![process](http://progressed.io/bar/10) -->
-
-Contribute to this language at https://crowdin.com/project/magento-2/zh-TW
-
-## Supported Magento versions
-
-- Magento v2.0.x
-- Magento v2.1.x
-- Magento v2.2.x
-
-
-
-## Note
-
-- This project automatically updates weekly from Crowdin.
-- Any question, issue please [create a new issue](https://github.com/HamiltonWang/language_zh_tw/issues/new)
-
-## Language package authors
-
-- [Magento official translations project for Magento 2](https://crowdin.com/project/magento-2)
-- Language packages built by [AI Art Inc. team](https://www.aiart.io/)
-
-
-## References:
-
-- https://www.aiart.io/language_zh_tw.html
-- https://crowdin.com/project/magento-2
-
-
-
-
-## AI Art Inc. extensions on Github
-
+Code generation is sponsored by [Wijzijn.Guru](http://www.wijzijn.guru/).
