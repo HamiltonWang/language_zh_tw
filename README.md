@@ -33,7 +33,7 @@ Install the Traditional Chinese language pack via composer is never easier.
 **Install Traditional Chinese pack**:
 
 ```
-composer require HamiltonWang/language_zh_tw:dev-master
+composer require aiart/language_zh_tw:dev-master
 php bin/magento setup:static-content:deploy zh_TW
 php bin/magento cache:flush
 
