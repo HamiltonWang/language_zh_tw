@@ -17,7 +17,7 @@ Translation progress:![Progress](http://progressed.io/bar/15)
 To install this translation package with composer you need access to the command line of your server and you need to have [Composer](https://getcomposer.org).
 ```
 cd <your magento path>
-composer require magento2translations/language_zh_tw:dev-master
+composer require magento2translations/language_zh_tw:master
 php bin/magento cache:clean
 ```
 ## Manually
