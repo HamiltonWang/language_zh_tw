@@ -22,9 +22,6 @@
       "role": "Leader"
     }
   ],
-  "require": {
-    "magento/framework": "*"
-  },
   "type": "magento2-language",
   "autoload": {
     "files": [
