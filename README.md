@@ -17,8 +17,8 @@ Below are two active buttons which are required operations before installing the
 
 **Download packages**:
 
-- [Download .zip](https://github.com/HamiltonWang/language_zh_tw/archive/master.zip)
-- [Download .tar.gz](https://github.com/HamiltonWang/language_zh_tw/tarball/master)
+- [Download .zip](https://github.com/HamiltonWang/magento2_language_zh_tw/archive/master.zip)
+- [Download .tar.gz](https://github.com/HamiltonWang/magento2_language_zh_tw/tarball/master)
 
 
 Find other [language packs here](https://www.mageplaza.com/kb/magento-2-language-pack/)
@@ -33,7 +33,7 @@ Install the Traditional Chinese language pack via composer is never easier.
 **Install Traditional Chinese pack**:
 
 ```
-composer require aiart/language_zh_tw:dev-master
+composer require aiart/magento2_language_zh_tw:dev-master
 php bin/magento setup:static-content:deploy zh_TW
 php bin/magento cache:flush
 
@@ -43,7 +43,7 @@ php bin/magento cache:flush
 **Update  Traditional Chinese pack**:
 
 ```
-composer update HamiltonWang/language_zh_tw:dev-master
+composer update HamiltonWang/magento2_language_zh_tw:dev-master
 php bin/magento setup:static-content:deploy zh_TW
 php bin/magento cache:flush
 
@@ -88,8 +88,8 @@ To download and install Traditional Chinese pack manually, you have to access to
 
 #### Step 1: Download the package
 
-- [Download .zip](https://github.com/HamiltonWang/language_zh_tw/archive/master.zip)
-- [Download .tar.gz](https://github.com/HamiltonWang/language_zh_tw/tarball/master)
+- [Download .zip](https://github.com/HamiltonWang/magento2_language_zh_tw/archive/master.zip)
+- [Download .tar.gz](https://github.com/HamiltonWang/magento2_language_zh_tw/tarball/master)
 
 #### Step 1: Unzip and upload
 
@@ -124,7 +124,7 @@ Contribute to this language at https://crowdin.com/project/magento-2/zh-TW
 ## Note
 
 - This project automatically updates weekly from Crowdin.
-- Any question, issue please [create a new issue](https://github.com/HamiltonWang/language_zh_tw/issues/new)
+- Any question, issue please [create a new issue](https://github.com/HamiltonWang/magento2_language_zh_tw/issues/new)
 
 ## Language package authors
 
