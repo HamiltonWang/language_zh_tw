@@ -1,8 +1,8 @@
 {
-  "name": "aiart/language_zh_tw",
+  "name": "aiart/magento2_language_zh_tw",
   "description": "Chinese (中文) Magento2 Language Pack (zh_TW) - From AI Art Inc.",
   "version": "0.0.3",
-  "homepage": "https://github.com/HamiltonWang/magento_zh_TW",
+  "homepage": "https://github.com/HamiltonWang/magento2_language_zh_TW",
   "license": [
     "MIT"
   ],
