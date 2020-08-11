@@ -138,6 +138,6 @@ Contribute to this language at https://crowdin.com/project/magento-2/zh-TW
 - https://crowdin.com/project/magento-2
 
 
+## Packagist
+https://packagist.org/packages/aiart/magento2_language_zh_tw
 
-
-## AI Art Inc. extensions on Github
