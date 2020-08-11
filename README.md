@@ -113,7 +113,7 @@ Now time to active the Traditional Chinese language pack for your Magento 2 stor
 
 Contribute to this language at https://crowdin.com/project/magento-2/zh-TW
 
-## Supported Magento versions
+## 5. Supported Magento versions
 
 - Magento v2.0.x
 - Magento v2.1.x
@@ -126,18 +126,18 @@ Contribute to this language at https://crowdin.com/project/magento-2/zh-TW
 - This project automatically updates weekly from Crowdin.
 - Any question, issue please [create a new issue](https://github.com/HamiltonWang/magento2_language_zh_tw/issues/new)
 
-## Language package authors
+## 6. Language package authors
 
 - [Magento official translations project for Magento 2](https://crowdin.com/project/magento-2)
 - Language packages built by [AI Art Inc. team](https://www.aiart.io/)
 
 
-## References:
+## 7. References:
 
 - https://www.aiart.io/language_zh_tw.html
 - https://crowdin.com/project/magento-2
 
 
-## Packagist
+## 8. Packagist
 https://packagist.org/packages/aiart/magento2_language_zh_tw
 
